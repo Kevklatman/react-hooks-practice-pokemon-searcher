@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { TeamContext } from "./TeamContext";
 
-function PokemonCard({ pokemon, addToTeam }) {
+function PokemonCard({ pokemon }) {
   const [isFront, setIsFront] = useState(true);
+  const { addToTeam } = useContext(TeamContext);
 
   const handleImageClick = () => {
     setIsFront(!isFront);
+  };
+
+  const handleAddToTeam = () => {
+    addToTeam(pokemon);
   };
 
   return (
@@ -15,7 +21,7 @@ function PokemonCard({ pokemon, addToTeam }) {
       <div className="card-body">
         <h2>{pokemon.name}</h2>
         <p>HP: {pokemon.hp}</p>
-        <button onClick={() => addToTeam(pokemon)}>Add to Team</button>
+        <button onClick={handleAddToTeam}>Add to Team</button>
       </div>
     </div>
   );
