@@ -5,7 +5,6 @@ import Team from "./Team";
 import { Container, Menu } from "semantic-ui-react";
 import { TeamProvider } from "./TeamContext";
 
-// ... rest of the code remains the same ...
 function App() {
   return (
     <Router>
