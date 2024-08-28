@@ -7,7 +7,7 @@ export const TeamProvider = ({ children }) => {
 
   const addToTeam = (pokemon) => {
     if (team.length < 5) {
-      setTeam([...team, pokemon]);
+      setTeam([...team, { ...pokemon, id: Date.now() }]);
     }
   };
 
