@@ -1,32 +1,23 @@
-import React, { useContext } from "react";
-import { Card, Button } from "semantic-ui-react";
-import { TeamContext } from "./TeamContext";
+import React, { useState } from "react";
 
-function PokemonCard({ pokemon }) {
-  const { addToTeam } = useContext(TeamContext);
+function PokemonCard({ pokemon, addToTeam }) {
+  const [isFront, setIsFront] = useState(true);
 
-  function handleAddToTeam() {
-    addToTeam(pokemon);
-  }
+  const handleImageClick = () => {
+    setIsFront(!isFront);
+  };
 
   return (
-    <Card>
-      <div>
-        <div className="image">
-          <img src={pokemon.sprites.front} alt={pokemon.name} />
-        </div>
-        <div className="content">
-          <div className="header">{pokemon.name}</div>
-        </div>
-        <div className="extra content">
-          <span>
-            <i className="icon heartbeat red" />
-            {pokemon.hp}
-          </span>
-          <Button onClick={handleAddToTeam}>Add to Team</Button>
-        </div>
+    <div className="PokemonCard">
+      <div onClick={handleImageClick}>
+        <img src={isFront ? pokemon.sprites.front : pokemon.sprites.back} alt={pokemon.name} />
       </div>
-    </Card>
+      <div className="card-body">
+        <h2>{pokemon.name}</h2>
+        <p>HP: {pokemon.hp}</p>
+        <button onClick={() => addToTeam(pokemon)}>Add to Team</button>
+      </div>
+    </div>
   );
 }
 

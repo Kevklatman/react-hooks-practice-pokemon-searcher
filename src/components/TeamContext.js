@@ -11,11 +11,16 @@ export const TeamProvider = ({ children }) => {
     }
   };
 
+  const removeFromTeam = (pokemonId) => {
+    const updatedTeam = team.filter((pokemon) => pokemon.id !== pokemonId);
+    setTeam(updatedTeam);
+  };
+
   return (
-    <TeamContext.Provider value={{ team, addToTeam }}>
+    <TeamContext.Provider value={{ team, addToTeam, removeFromTeam }}>
       {children}
     </TeamContext.Provider>
   );
 };
 
-export default TeamProvider
+export default { TeamProvider, TeamContext };

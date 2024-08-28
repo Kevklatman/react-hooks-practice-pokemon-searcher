@@ -1,8 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PokemonPage from "./PokemonPage";
 import Team from "./Team";
-import { Container, Menu } from "semantic-ui-react";
+import Menu from "./Menu";
+import { Container } from "semantic-ui-react";
 import { TeamProvider } from "./TeamContext";
 
 function App() {
@@ -10,15 +11,7 @@ function App() {
     <Router>
       <TeamProvider>
         <div>
-          <Menu inverted>
-            <Menu.Item as={Link} to="/">
-              Home
-            </Menu.Item>
-            <Menu.Item as={Link} to="/team">
-              Team
-            </Menu.Item>
-          </Menu>
-
+          <Menu />
           <Container>
             <Routes>
               <Route exact path="/" element={<PokemonPage />} />

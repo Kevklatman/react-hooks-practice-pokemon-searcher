@@ -6,14 +6,7 @@ function PokemonCollection({ pokeData }) {
 
 
   const cardArray = pokeData.map((pokemon) => {
-    return (
-      <PokemonCard
-        key={pokemon.name}
-        image={pokemon.sprites}
-        name={pokemon.name}
-        hp={pokemon.hp}
-      />
-    );
+    return <PokemonCard key={pokemon.name} pokemon={pokemon} />;
   });
 
 

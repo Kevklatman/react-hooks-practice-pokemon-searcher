@@ -1,23 +1,116 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #282c34;
   padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
-.App-intro {
-  font-size: large;
+/* PokemonPage.css */
+
+.PokemonPage {
+  margin-top: 20px;
+}
+
+.PokemonPage h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* PokemonCollection.css */
+
+.PokemonCollection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* PokemonCard.css */
+
+.PokemonCard {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.PokemonCard img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.PokemonCard .header {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.PokemonCard .extra.content {
+  margin-top: 10px;
+}
+
+.PokemonCard .icon {
+  margin-right: 5px;
+}
+
+/* PokemonForm.css */
+
+.PokemonForm {
+  margin-top: 20px;
+}
+
+.PokemonForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PokemonForm input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 200px;
+}
+
+.PokemonForm button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Search.css */
+
+.Search {
+  margin-top: 20px;
+}
+
+.Search input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Team.css */
+
+.Team {
+  margin-top: 20px;
+}
+
+.Team h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
 }

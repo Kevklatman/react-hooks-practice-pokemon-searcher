@@ -2,70 +2,88 @@ import React, { useState } from "react";
 import { Form } from "semantic-ui-react";
 
 function PokemonForm({ handleSubmit }) {
-  const [newPokemon, setNewPokemon] = useState({
-    name: "",
-    hp: "",
-    frontUrl: "",
-    backUrl: ""
-  })
+  const [name, setName] = useState("");
+  const [hp, setHp] = useState("");
+  const [frontUrl, setFrontUrl] = useState("");
+  const [backUrl, setBackUrl] = useState("");
 
-  function handleChange(event) {
-    const name = event.target.name
-    const value = event.target.value
-    setNewPokemon({ ...newPokemon, [name]: value })
-  }
-
-  const pokemonToAdd = {
-    name: newPokemon.name,
-    hp: newPokemon.hp,
-    sprites: {
-      front: newPokemon.frontUrl,
-      back: newPokemon.backUrl
-    }
-  }
-
-  function handleSubmitHandler(event) {
-    event.preventDefault()
-    handleSubmit(pokemonToAdd)
-
-    fetch("http://localhost:3001/pokemon",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
+  function handleSubmission(e) {
+    e.preventDefault();
+    fetch("http://localhost:3001/pokemon", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: name,
+        hp: hp,
+        sprites: {
+          front: frontUrl,
+          back: backUrl,
         },
-        body: JSON.stringify(pokemonToAdd)
-      })
-      .then(res => res.json())
-      .then(data => console.log(data))
+      }),
+    })
+      .then((r) => r.json())
+      .then((newPokemon) => handleSubmit(newPokemon));
   }
 
   return (
     <div>
       <h3>Add a Pokemon!</h3>
-      <Form
-        onSubmit={handleSubmitHandler}
-        onChange={handleChange}
-      >
+      <Form onSubmit={handleSubmission}>
         <Form.Group widths="equal">
-          <Form.Input fluid label="Name" value={newPokemon.name} placeholder="Name" name="name" />
-          <Form.Input fluid label="hp" value={newPokemon.hp} placeholder="hp" name="hp" />
-          <Form.Input
-            fluid
-            value={newPokemon.frontUrl}
-            label="Front Image URL"
-            placeholder="url"
-            name="frontUrl"
-          />
-          <Form.Input
-            fluid
-            value={newPokemon.backUrl}
-            label="Back Image URL"
-            placeholder="url"
-            name="backUrl"
-          />
+          <Form.Field>
+            <label htmlFor="pokemonName">Name</label>
+            <input
+              type="text"
+              id="pokemonName"
+              name="pokemonName"
+              value={name}
+              placeholder="Name"
+              onChange={(e) => setName(e.target.value)}
+              autocomplete="off"
+            />
+          </Form.Field>
+          <Form.Field>
+            <label htmlFor="pokemonHp">HP</label>
+            <input
+              type="number"
+              id="pokemonHp"
+              name="pokemonHp"
+              value={hp}
+              placeholder="HP"
+              onChange={(e) => setHp(e.target.value)}
+              autocomplete="off"
+            />
+          </Form.Field>
         </Form.Group>
-        <Form.Button>Submit</Form.Button>
+        <Form.Group widths="equal">
+          <Form.Field>
+            <label htmlFor="pokemonFrontUrl">Front Image URL</label>
+            <input
+              type="text"
+              id="pokemonFrontUrl"
+              name="pokemonFrontUrl"
+              value={frontUrl}
+              placeholder="Front Image URL"
+              onChange={(e) => setFrontUrl(e.target.value)}
+              autocomplete="url"
+            />
+          </Form.Field>
+          <Form.Field>
+            <label htmlFor="pokemonBackUrl">Back Image URL</label>
+            <input
+              type="text"
+              id="pokemonBackUrl"
+              name="pokemonBackUrl"
+              value={backUrl}
+              placeholder="Back Image URL"
+              onChange={(e) => setBackUrl(e.target.value)}
+              autocomplete="url"
+            />
+          </Form.Field>
+        </Form.Group>
+        <Form.Button type="submit">Submit</Form.Button>
       </Form>
     </div>
   );
