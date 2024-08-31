@@ -1922,4 +1922,131 @@
               "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png"
             }
           },
+          {
+            "id": 143,
+            "name": "snorlax",
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 110,
+            "speed": 30,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/143.png"
+            }
+          },
+          {
+            "id": 144,
+            "name": "articuno",
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special-attack": 95,
+            "special-defense": 125,
+            "speed": 85,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/144.png"
+            }
+          },
+          {
+            "id": 145,
+            "name": "zapdos",
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 90,
+            "speed": 100,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/145.png"
+            }
+          },
+          {
+            "id": 146,
+            "name": "moltres",
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special-attack": 125,
+            "special-defense": 85,
+            "speed": 90,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/146.png"
+            }
+          },
+          {
+            "id": 147,
+            "name": "dratini",
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 50,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/147.png"
+            }
+          },
+          {
+            "id": 148,
+            "name": "dragonair",
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 70,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/148.png"
+            }
+          },
+          {
+            "id": 149,
+            "name": "dragonite",
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png"
+            }
+          },
+          {
+            "id": 150,
+            "name": "mewtwo",
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special-attack": 154,
+            "special-defense": 90,
+            "speed": 130,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
+            }
+          },
+          {
+            "id": 151,
+            "name": "mew",
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 100,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
+            }
+          }
+        ]
         
