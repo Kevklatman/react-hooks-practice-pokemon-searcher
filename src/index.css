@@ -117,12 +117,16 @@
   justify-content: center;
 }
 
-
-
 .Team-pokemon-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+}
+
+.Team-pokemon-list > * {
+  flex: 1 0 calc(20% - 20px);
+  max-width: calc(20% - 20px);
 }
 
 .Team-pokemon-card {
@@ -169,8 +173,8 @@
 }
 
 .TeamStatsCard-image {
-  width: 120px;
-  height: 120px;
+  width: 100%;
+  height: auto;
   margin-bottom: 10px;
 }
 
@@ -184,7 +188,7 @@
   margin-top: 10px;
   margin-bottom: 20px;
   font-size: 14px;
- text-align: center;
+  text-align: left;
 }
 
 .TeamStatsCard-stats div {
