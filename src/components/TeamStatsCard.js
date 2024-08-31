@@ -1,15 +1,15 @@
-// TeamStatsCard.js
 import React from "react";
-import newData from "./newData.json"; // Import the JSON data
-import "./TeamStatsCard.css"; // Import the CSS file for styling
+import newData from "./newData.json";
 
 function TeamStatsCard({ pokemon, onRemove }) {
-  const getPokemonStats = (pokemonId) => {
-    const pokemonData = newData.pokemon.find((p) => p.id === pokemonId);
+  const getPokemonStats = (pokemonName) => {
+    const pokemonData = newData.pokemon.find(
+      (p) => p.name.toLowerCase() === pokemonName.toLowerCase()
+    );
     return pokemonData ? pokemonData : null;
   };
 
-  const pokemonStats = getPokemonStats(pokemon.id);
+  const pokemonStats = getPokemonStats(pokemon.name);
 
   return (
     <div className="TeamStatsCard">
