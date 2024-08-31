@@ -1,4 +1,5 @@
-[
+{
+    "pokemon": [
     {
       "id": 2,
       "name": "ivysaur",
@@ -622,7 +623,7 @@
     },
     {
       "id": 42, 
-      "name": "golbat",
+      "name": "golbats",
       "hp": 75,
       "attack": 80,
       "defense": 70,
@@ -2049,4 +2050,4 @@
             }
           }
         ]
-        
+    }

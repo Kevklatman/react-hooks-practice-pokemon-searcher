@@ -1377,5 +1377,2058 @@
         "back": "data:image/png;base64,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"
       }
     }
-  ]
-}
+  ],
+  
+    "pokemon more data": [
+    {
+      "id": 2,
+      "name": "ivysaur",
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "speed": 60,
+      "special": 80,
+      "type": [
+        "grass",
+        "poison"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "venusaur",
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "speed": 80,
+      "special": 100,
+      "type": [
+        "grass",
+        "poison"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "charmander",
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "speed": 65,
+      "special": 50,
+      "type": [
+        "fire"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "charmeleon",
+      "hp": 58,
+      "attack": 64, 
+      "defense": 58,
+      "speed": 80,
+      "special": 65,
+      "type": [
+        "fire"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "speed": 100,
+      "special": 85,
+      "type": [
+        "fire",
+        "flying"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
+      }
+    },
+    {
+      "id": 7,
+      "name": "squirtle",
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "speed": 43,
+      "special": 50,
+      "type": [
+        "water"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png"
+      }
+    },
+    {
+      "id": 8,
+      "name": "wartortle",
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "speed": 58, 
+      "special": 65,
+      "type": [
+        "water"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/8.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "blastoise",
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "speed": 78,
+      "special": 85,
+      "type": [
+        "water"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "caterpie",
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "speed": 45,
+      "special": 20,
+      "type": [
+        "bug"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10.png"
+      }
+    },
+    {
+      "id": 11,
+      "name": "metapod",
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "speed": 30,
+      "special": 25,
+      "type": [
+        "bug"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "butterfree",
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "speed": 70,
+      "special": 90,
+      "type": [
+        "bug",
+        "flying"  
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "weedle",
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "speed": 50,
+      "special": 20,
+      "type": [
+        "bug",
+        "poison"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/13.png"
+      }
+    },
+    {
+      "id": 14,
+      "name": "kakuna",
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "speed": 35,
+      "special": 25,
+      "type": [
+        "bug",
+        "poison" 
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png"  
+      }
+    },
+    {
+      "id": 15,
+      "name": "beedrill",
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "speed": 75,
+      "special": 45,
+      "type": [
+        "bug",
+        "poison"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png"
+      }
+    },
+    {
+      "id": 16,
+      "name": "pidgey", 
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "speed": 56,
+      "special": 35,
+      "type": [
+        "normal",
+        "flying"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png"
+      }
+    },
+    {
+      "id": 17,
+      "name": "pidgeotto",
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "speed": 71,
+      "special": 50,
+      "type": [
+        "normal",
+        "flying"
+      ], 
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png"
+      }
+    },
+    {
+      "id": 18,
+      "name": "pidgeot",
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "speed": 101,
+      "special": 70,
+      "type": [
+        "normal",
+        "flying"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png"
+      }
+    },
+    {
+      "id": 19,
+      "name": "rattata",
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "speed": 72,
+      "special": 25,
+      "type": [
+        "normal"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/19.png"
+      }
+    },
+    {
+      "id": 20,
+      "name": "raticate",
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "speed": 97,
+      "special": 50,
+      "type": [
+        "normal"  
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/20.png"
+      }
+    },
+    {
+      "id": 21,
+      "name": "spearow",
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "speed": 70,
+      "special": 31,
+      "type": [
+        "normal",
+        "flying"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png" 
+      }
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "speed": 100,
+      "special": 61,
+      "type": [
+        "normal",
+        "flying"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png"
+      }
+    },
+    {
+      "id": 23,
+      "name": "ekans",
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "speed": 55,
+      "special": 40,
+      "type": [
+        "poison"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/23.png"
+      }
+    },
+    {
+      "id": 24,
+      "name": "arbok", 
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "speed": 80,
+      "special": 65,
+      "type": [
+        "poison"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/24.png"
+      }
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "speed": 90,
+      "special": 50,
+      "type": [
+        "electric"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png", 
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png"
+      }
+    },
+    {
+      "id": 26,
+      "name": "raichu",
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "speed": 110,
+      "special": 90,
+      "type": [
+        "electric"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png"
+      }
+    },
+    {
+      "id": 27,
+      "name": "sandshrew",
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "speed": 40, 
+      "special": 30,
+      "type": [
+        "ground"
+      ],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png"
+      }
+    },
+    {
+      "id": 28,
+      "name": "sandslash",
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "speed": 65,
+      "special": 55,
+      "type": [
+        "ground"
+]},
+    {
+      "id": 29,
+      "name": "nidoran-f",
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "speed": 41,
+      "special": 40,
+      "type": ["poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/29.png"
+      }
+    },
+    {
+      "id": 30,
+      "name": "nidorina",
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "speed": 56, 
+      "special": 55,
+      "type": ["poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/30.png"
+      }
+    },
+    {
+      "id": 31,
+      "name": "nidoqueen",
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "speed": 76,
+      "special": 75,
+      "type": ["poison", "ground"], 
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png"  
+      }
+    },
+    {
+      "id": 32,
+      "name": "nidoran-m",
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "speed": 50,
+      "special": 40, 
+      "type": ["poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/32.png"
+      }
+    },
+    {
+      "id": 33,
+      "name": "nidorino",
+      "hp": 61,
+      "attack": 72, 
+      "defense": 57,
+      "speed": 65,
+      "special": 55,
+      "type": ["poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png", 
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/33.png"
+      }
+    },
+    {
+      "id": 34,
+      "name": "nidoking",
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "speed": 85,
+      "special": 85,
+      "type": ["poison", "ground"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png" 
+      }
+    },
+    {
+      "id": 35,
+      "name": "clefairy", 
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "speed": 35,
+      "special": 60,
+      "type": ["fairy"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png"
+      }
+    },
+    {
+      "id": 36,
+      "name": "clefable",
+      "hp": 95,
+      "attack": 70, 
+      "defense": 73,
+      "speed": 60,
+      "special": 95,
+      "type": ["fairy"], 
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png"
+      }
+    },
+    {
+      "id": 37,
+      "name": "vulpix",
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "speed": 65, 
+      "special": 65,
+      "type": ["fire"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/37.png" 
+      }
+    },
+    {
+      "id": 38,
+      "name": "ninetales",
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "speed": 100,
+      "special": 100,
+      "type": ["fire"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/38.png"
+      }
+    },
+    {
+      "id": 39,
+      "name": "jigglypuff", 
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "speed": 20,
+      "special": 25,
+      "type": ["normal", "fairy"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/39.png"
+      }
+    },
+    {
+      "id": 40,
+      "name": "wigglytuff",
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "speed": 45, 
+      "special": 50,
+      "type": ["normal", "fairy"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/40.png"
+      }  
+    },
+    {
+      "id": 41,
+      "name": "zubat",
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "speed": 55,
+      "special": 40,
+      "type": ["poison", "flying"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/41.png"
+      }
+    },
+    {
+      "id": 42, 
+      "name": "golbats",
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "speed": 90,
+      "special": 75,
+      "type": ["poison", "flying"], 
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/42.png"  
+      }
+    },
+    {
+      "id": 43,
+      "name": "oddish",
+      "hp": 45,  
+      "attack": 50,
+      "defense": 55,
+      "speed": 30,
+      "special": 75,
+      "type": ["grass", "poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/43.png"
+      }
+    },
+    {
+      "id": 44,
+      "name": "gloom",
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "speed": 40,
+      "special": 85,
+      "type": ["grass", "poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/44.png" 
+      }
+    },
+    {
+      "id": 45,
+      "name": "vileplume", 
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "speed": 50,
+      "special": 110,
+      "type": ["grass", "poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png"
+      }
+    },
+    {
+      "id": 46,
+      "name": "paras",
+      "hp": 35,
+      "attack": 70, 
+      "defense": 55,
+      "speed": 25,
+      "special": 55,
+      "type": ["bug","grass"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/46.png"  
+      }
+    }, 
+    {
+      "id": 47,
+      "name": "parasect",
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "speed": 30,
+      "special": 80,
+      "type": ["bug","grass"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/47.png"
+      }
+    },
+    {
+      "id": 48,
+      "name": "venonat",
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "speed": 45,
+      "special": 40,
+      "type": ["bug","poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png", 
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/48.png"
+      }
+    },
+    {
+      "id": 49,
+      "name": "venomoth",
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "speed": 90,
+      "special": 90,
+      "type": ["bug","poison"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/49.png" 
+      }
+    },
+    {
+      "id": 50,
+      "name": "diglett", 
+      "hp": 10,
+      "attack": 55,
+      "defense": 25, 
+      "speed": 95,
+      "special": 45,
+      "type": ["ground"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/50.png"
+      }
+    },
+    {
+      "id": 51,
+      "name": "dugtrio",
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "speed": 120,
+      "special": 70,
+      "type": ["ground"], 
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/51.png"
+      }
+    },
+    {
+      "id": 52,
+      "name": "meowth",
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "speed": 90,
+      "special": 40,
+      "type": ["normal"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/52.png"
+      }
+    },
+    {
+      "id": 53,
+      "name": "persian",
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "speed": 115,
+      "special": 65,
+      "type": ["normal"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/53.png"
+      }
+    }, 
+    {
+      "id": 54,
+      "name": "psyduck",
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "speed": 55,
+      "special": 65,
+      "type": ["water"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/54.png"
+      }
+    },
+    {
+      "id": 55,
+      "name": "golduck",
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "speed": 85,
+      "special": 95,
+      "type": ["water"],
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/55.png"  
+      }
+    }, 
+     {
+          "id": 64,
+          "name": "kadabra",
+          "hp": 40,
+          "attack": 35,
+          "defense": 30,
+          "special-attack": 120,
+          "special-defense": 70,
+          "speed": 105,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/64.png"
+          }
+        },
+        {
+          "id": 65,
+          "name": "alakazam",
+          "hp": 55,
+          "attack": 50,
+          "defense": 45,
+          "special-attack": 135,
+          "special-defense": 95,
+          "speed": 120,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/65.png"
+          }
+        },
+        {
+          "id": 66,
+          "name": "machop",
+          "hp": 70,
+          "attack": 80,
+          "defense": 50,
+          "special-attack": 35,
+          "special-defense": 35,
+          "speed": 35,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/66.png"
+          }
+        },
+        {
+          "id": 67,
+          "name": "machoke",
+          "hp": 80,
+          "attack": 100,
+          "defense": 70,
+          "special-attack": 50,
+          "special-defense": 60,
+          "speed": 45,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/67.png"
+          }
+        },
+        {
+          "id": 68,
+          "name": "machamp",
+          "hp": 90,
+          "attack": 130,
+          "defense": 80,
+          "special-attack": 65,
+          "special-defense": 85,
+          "speed": 55,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/68.png"
+          }
+        },
+        {
+          "id": 69,
+          "name": "bellsprout",
+          "hp": 50,
+          "attack": 75,
+          "defense": 35,
+          "special-attack": 70,
+          "special-defense": 30,
+          "speed": 40,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/69.png"
+          }
+        },
+        {
+          "id": 70,
+          "name": "weepinbell",
+          "hp": 65,
+          "attack": 90,
+          "defense": 50,
+          "special-attack": 85,
+          "special-defense": 45,
+          "speed": 55,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/70.png"
+          }
+        },
+        {
+          "id": 71,
+          "name": "victreebel",
+          "hp": 80,
+          "attack": 105,
+          "defense": 65,
+          "special-attack": 100,
+          "special-defense": 70,
+          "speed": 70,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/71.png"
+          }
+        },
+        {
+          "id": 72,
+          "name": "tentacool",
+          "hp": 40,
+          "attack": 40,
+          "defense": 35,
+          "special-attack": 50,
+          "special-defense": 100,
+          "speed": 70,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/72.png"
+          }
+        },
+        {
+          "id": 73,
+          "name": "tentacruel",
+          "hp": 80,
+          "attack": 70,
+          "defense": 65,
+          "special-attack": 80,
+          "special-defense": 120,
+          "speed": 100,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/73.png"
+          }
+        },
+        {
+          "id": 74,
+          "name": "geodude",
+          "hp": 40,
+          "attack": 80,
+          "defense": 100,
+          "special-attack": 30,
+          "special-defense": 30,
+          "speed": 20,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/74.png"
+          }
+        },
+        {
+          "id": 75,
+          "name": "graveler",
+          "hp": 55,
+          "attack": 95,
+          "defense": 115,
+          "special-attack": 45,
+          "special-defense": 45,
+          "speed": 35,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/75.png"
+          }
+        },
+        {
+          "id": 76,
+          "name": "golem",
+          "hp": 80,
+          "attack": 120,
+          "defense": 130,
+          "special-attack": 55,
+          "special-defense": 65,
+          "speed": 45,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/76.png"
+          }
+        },
+        {
+          "id": 77,
+          "name": "ponyta",
+          "hp": 50,
+          "attack": 85,
+          "defense": 55,
+          "special-attack": 65,
+          "special-defense": 65,
+          "speed": 90,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/77.png"
+          }
+        },
+        {
+          "id": 78,
+          "name": "rapidash",
+          "hp": 65,
+          "attack": 100,
+          "defense": 70,
+          "special-attack": 80,
+          "special-defense": 80,
+          "speed": 105,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/78.png"
+          }
+        },
+        {
+          "id": 79,
+          "name": "slowpoke",
+          "hp": 90,
+          "attack": 65,
+          "defense": 65,
+          "special-attack": 40,
+          "special-defense": 40,
+          "speed": 15,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/79.png"
+          }
+        },
+        {
+          "id": 80,
+          "name": "slowbro",
+          "hp": 95,
+          "attack": 75,
+          "defense": 110,
+          "special-attack": 100,
+          "special-defense": 80,
+          "speed": 30,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/80.png"
+          }
+        },
+        {
+          "id": 81,
+          "name": "magnemite",
+          "hp": 25,
+          "attack": 35,
+          "defense": 70,
+          "special-attack": 95,
+          "special-defense": 55,
+          "speed": 45,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/81.png"
+          }
+        },
+        {
+          "id": 82,
+          "name": "magneton",
+          "hp": 50,
+          "attack": 60,
+          "defense": 95,
+          "special-attack": 120,
+          "special-defense": 70,
+          "speed": 70,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/82.png"
+          }
+        },
+        {
+          "id": 83,
+          "name": "farfetchd",
+          "hp": 52,
+          "attack": 90,
+          "defense": 55,
+          "special-attack": 58,
+          "special-defense": 62,
+          "speed": 60,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/83.png"
+          }
+        },
+        {
+          "id": 84,
+          "name": "doduo",
+          "hp": 35,
+          "attack": 85,
+          "defense": 45,
+          "special-attack": 35,
+          "special-defense": 35,
+          "speed": 75,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/84.png"
+          }
+        },
+        {
+          "id": 85,
+          "name": "dodrio",
+          "hp": 60,
+          "attack": 110,
+          "defense": 70,
+          "special-attack": 60,
+          "special-defense": 60,
+          "speed": 110,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/85.png"
+          }
+        },
+        {
+          "id": 86,
+          "name": "seel",
+          "hp": 65,
+          "attack": 45,
+          "defense": 55,
+          "special-attack": 45,
+          "special-defense": 70,
+          "speed": 45,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/86.png"
+          }
+        },
+        {
+          "id": 87,
+          "name": "dewgong",
+          "hp": 90,
+          "attack": 70,
+          "defense": 80,
+          "special-attack": 70,
+          "special-defense": 95,
+          "speed": 70,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/87.png"
+          }
+        },
+        {
+          "id": 88,
+          "name": "grimer",
+          "hp": 80,
+          "attack": 80,
+          "defense": 50,
+          "special-attack": 40,
+          "special-defense": 50,
+          "speed": 25,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/88.png"
+          }
+        },
+        {
+          "id": 89,
+          "name": "muk",
+          "hp": 105,
+          "attack": 105,
+          "defense": 75,
+          "special-attack": 65,
+          "special-defense": 100,
+          "speed": 50,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png"
+          }
+        },
+        {
+          "id": 90,
+          "name": "shellder",
+          "hp": 30,
+          "attack": 65,
+          "defense": 100,
+          "special-attack": 45,
+          "special-defense": 25,
+          "speed": 40,
+          "sprites": {
+            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/90.png"
+          }
+        },
+        {
+            "id": 91,
+            "name": "cloyster",
+            "hp": 50,
+            "attack": 95,
+            "defense": 180,
+            "special-attack": 85,
+            "special-defense": 45,
+            "speed": 70,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png"
+            }
+          },
+          {
+            "id": 92,
+            "name": "gastly",
+            "hp": 30,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 100,
+            "special-defense": 35,
+            "speed": 80,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/92.png"
+            }
+          },
+          {
+            "id": 93,
+            "name": "haunter",
+            "hp": 45,
+            "attack": 50,
+            "defense": 45,
+            "special-attack": 115,
+            "special-defense": 55,
+            "speed": 95,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/93.png"
+            }
+          },
+          {
+            "id": 94,
+            "name": "gengar",
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 130,
+            "special-defense": 75,
+            "speed": 110,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png"
+            }
+          },
+          {
+            "id": 95,
+            "name": "onix",
+            "hp": 35,
+            "attack": 45,
+            "defense": 160,
+            "special-attack": 30,
+            "special-defense": 45,
+            "speed": 70,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/95.png"
+            }
+          },
+          {
+            "id": 96,
+            "name": "drowzee",
+            "hp": 60,
+            "attack": 48,
+            "defense": 45,
+            "special-attack": 43,
+            "special-defense": 90,
+            "speed": 42,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/96.png"
+            }
+          },
+          {
+            "id": 97,
+            "name": "hypno",
+            "hp": 85,
+            "attack": 73,
+            "defense": 70,
+            "special-attack": 73,
+            "special-defense": 115,
+            "speed": 67,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/97.png"
+            }
+          },
+          {
+            "id": 98,
+            "name": "krabby",
+            "hp": 30,
+            "attack": 105,
+            "defense": 90,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 50,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/98.png"
+            }
+          },
+          {
+            "id": 99,
+            "name": "kingler",
+            "hp": 55,
+            "attack": 130,
+            "defense": 115,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 75,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/99.png"
+            }
+          },
+          {
+            "id": 100,
+            "name": "voltorb",
+            "hp": 40,
+            "attack": 30,
+            "defense": 50,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 100,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/100.png"
+            }
+          },
+          {
+            "id": 101,
+            "name": "electrode",
+            "hp": 60,
+            "attack": 50,
+            "defense": 70,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 150,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/101.png"
+            }
+          },
+          {
+            "id": 102,
+            "name": "exeggcute",
+            "hp": 60,
+            "attack": 40,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 40,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/102.png"
+            }
+          },
+          {
+            "id": 103,
+            "name": "exeggutor",
+            "hp": 95,
+            "attack": 95,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 75,
+            "speed": 55,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/103.png"
+            }
+          },
+          {
+            "id": 104,
+            "name": "cubone",
+            "hp": 50,
+            "attack": 50,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 50,
+            "speed": 35,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/104.png"
+            }
+          },
+          {
+            "id": 105,
+            "name": "marowak",
+            "hp": 60,
+            "attack": 80,
+            "defense": 110,
+            "special-attack": 50,
+            "special-defense": 80,
+            "speed": 45,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/105.png"
+            }
+          },
+          {
+            "id": 106,
+            "name": "hitmonlee",
+            "hp": 50,
+            "attack": 120,
+            "defense": 53,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 87,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/106.png"
+            }
+          },
+          {
+            "id": 107,
+            "name": "hitmonchan",
+            "hp": 50,
+            "attack": 105,
+            "defense": 79,
+            "special-attack": 35,
+            "special-defense": 110,
+            "speed": 76,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/107.png"
+            }
+          },
+          {
+            "id": 108,
+            "name": "lickitung",
+            "hp": 90,
+            "attack": 55,
+            "defense": 75,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 30,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/108.png"
+            }
+          },
+          {
+            "id": 109,
+            "name": "koffing",
+            "hp": 40,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 60,
+            "special-defense": 45,
+            "speed": 35,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/109.png"
+            }
+          },
+          {
+            "id": 110,
+            "name": "weezing",
+            "hp": 65,
+            "attack": 90,
+            "defense": 120,
+            "special-attack": 85,
+            "special-defense": 70,
+            "speed": 60,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/110.png"
+            }
+          },
+          {
+            "id": 111,
+            "name": "rhyhorn",
+            "hp": 80,
+            "attack": 85,
+            "defense": 95,
+            "special-attack": 30,
+            "special-defense": 30,
+            "speed": 25,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/111.png"
+            }
+          },
+          {
+            "id": 112,
+            "name": "rhydon",
+            "hp": 105,
+            "attack": 130,
+            "defense": 120,
+            "special-attack": 45,
+            "special-defense": 45,
+            "speed": 40,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/112.png"
+            }
+          },
+          {
+            "id": 113,
+            "name": "chansey",
+            "hp": 250,
+            "attack": 5,
+            "defense": 5,
+            "special-attack": 35,
+            "special-defense": 105,
+            "speed": 50,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/113.png"
+            }
+          },
+          {
+            "id": 114,
+            "name": "tangela",
+            "hp": 65,
+            "attack": 55,
+            "defense": 115,
+            "special-attack": 100,
+            "special-defense": 40,
+            "speed": 60,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/114.png"
+            }
+          },
+          {
+            "id": 115,
+            "name": "kangaskhan",
+            "hp": 105,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 40,
+            "special-defense": 80,
+            "speed": 90,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/115.png"
+            }
+          },
+          {
+            "id": 116,
+            "name": "horsea",
+            "hp": 30,
+            "attack": 40,
+            "defense": 70,
+            "special-attack": 70,
+            "special-defense": 25,
+            "speed": 60,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/116.png"
+            }
+          },
+          {
+            "id": 117,
+            "name": "seadra",
+            "hp": 55,
+            "attack": 65,
+            "defense": 95,
+            "special-attack": 95,
+            "special-defense": 45,
+            "speed": 85,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/117.png"
+            }
+          },
+          {
+            "id": 118,
+            "name": "goldeen",
+            "hp": 45,
+            "attack": 67,
+            "defense": 60,
+            "special-attack": 35,
+            "special-defense": 50,
+            "speed": 63,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/118.png"
+            }
+          },
+          {
+            "id": 119,
+            "name": "seaking",
+            "hp": 80,
+            "attack": 92,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 68,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/119.png"
+            }
+          },
+          {
+            "id": 120,
+            "name": "staryu",
+            "hp": 30,
+            "attack": 45,
+            "defense": 55,
+            "special-attack": 70,
+            "special-defense": 55,
+            "speed": 85,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/120.png"
+            }
+          },
+          {
+            "id": 121,
+            "name": "starmie",
+            "hp": 60,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 115,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/121.png"
+            }
+          },
+          {
+            "id": 122,
+            "name": "mr-mime",
+            "hp": 40,
+            "attack": 45,
+            "defense": 65,
+            "special-attack": 100,
+            "special-defense": 120,
+            "speed": 90,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/122.png"
+            }
+          },
+          {
+            "id": 123,
+            "name": "scyther",
+            "hp": 70,
+            "attack": 110,
+            "defense": 80,
+            "special-attack": 55,
+            "special-defense": 80,
+            "speed": 105,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/123.png"
+            }
+          },
+          {
+            "id": 124,
+            "name": "jynx",
+            "hp": 65,
+            "attack": 50,
+            "defense": 35,
+            "special-attack": 115,
+            "special-defense": 95,
+            "speed": 95,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/124.png"
+            }
+          },
+          {
+            "id": 125,
+            "name": "electabuzz",
+            "hp": 65,
+            "attack": 83,
+            "defense": 57,
+            "special-attack": 95,
+            "special-defense": 85,
+            "speed": 105,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/125.png"
+            }
+          },
+          {
+            "id": 126,
+            "name": "magmar",
+            "hp": 65,
+            "attack": 95,
+            "defense": 57,
+            "special-attack": 100,
+            "special-defense": 85,
+            "speed": 93,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/126.png"
+            }
+          },
+          {
+            "id": 127,
+            "name": "pinsir",
+            "hp": 65,
+            "attack": 125,
+            "defense": 100,
+            "special-attack": 55,
+            "special-defense": 70,
+            "speed": 85,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/127.png"
+            }
+          },
+          {
+            "id": 128,
+            "name": "tauros",
+            "hp": 75,
+            "attack": 100,
+            "defense": 95,
+            "special-attack": 40,
+            "special-defense": 70,
+            "speed": 110,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/128.png"
+            }
+          },
+          {
+            "id": 129,
+            "name": "magikarp",
+            "hp": 20,
+            "attack": 10,
+            "defense": 55,
+            "special-attack": 15,
+            "special-defense": 20,
+            "speed": 80,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/129.png"
+            }
+          },
+          {
+            "id": 130,
+            "name": "gyarados",
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "special-attack": 60,
+            "special-defense": 100,
+            "speed": 81,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/130.png"
+            }
+          },
+          {
+            "id": 131,
+            "name": "lapras",
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "special-attack": 85,
+            "special-defense": 95,
+            "speed": 60,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/131.png"
+            }
+          },
+          {
+            "id": 132,
+            "name": "ditto",
+            "hp": 48,
+            "attack": 48,
+            "defense": 48,
+            "special-attack": 48,
+            "special-defense": 48,
+            "speed": 48,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png"
+            }
+          },
+          {
+            "id": 133,
+            "name": "eevee",
+            "hp": 55,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 45,
+            "special-defense": 65,
+            "speed": 55,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/133.png"
+            }
+          },
+          {
+            "id": 134,
+            "name": "vaporeon",
+            "hp": 130,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 65,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/134.png"
+            }
+          },
+          {
+            "id": 135,
+            "name": "jolteon",
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 110,
+            "special-defense": 95,
+            "speed": 130,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/135.png"
+            }
+          },
+          {
+            "id": 136,
+            "name": "flareon",
+            "hp": 65,
+            "attack": 130,
+            "defense": 60,
+            "special-attack": 95,
+            "special-defense": 110,
+            "speed": 65,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/136.png"
+            }
+          },
+          {
+            "id": 137,
+            "name": "porygon",
+            "hp": 65,
+            "attack": 60,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/137.png"
+            }
+          },
+          {
+            "id": 138,
+            "name": "omanyte",
+            "hp": 35,
+            "attack": 40,
+            "defense": 100,
+            "special-attack": 90,
+            "special-defense": 55,
+            "speed": 35,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/138.png"
+            }
+          },
+          {
+            "id": 139,
+            "name": "omastar",
+            "hp": 70,
+            "attack": 60,
+            "defense": 125,
+            "special-attack": 115,
+            "special-defense": 70,
+            "speed": 55,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/139.png"
+            }
+          },
+          {
+            "id": 140,
+            "name": "kabuto",
+            "hp": 30,
+            "attack": 80,
+            "defense": 90,
+            "special-attack": 55,
+            "special-defense": 45,
+            "speed": 55,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/140.png"
+            }
+          },
+          {
+            "id": 141,
+            "name": "kabutops",
+            "hp": 60,
+            "attack": 115,
+            "defense": 105,
+            "special-attack": 65,
+            "special-defense": 70,
+            "speed": 80,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/141.png"
+            }
+          },
+          {
+            "id": 142,
+            "name": "aerodactyl",
+            "hp": 80,
+            "attack": 105,
+            "defense": 65,
+            "special-attack": 60,
+            "special-defense": 75,
+            "speed": 130,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/142.png"
+            }
+          },
+          {
+            "id": 143,
+            "name": "snorlax",
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "special-attack": 65,
+            "special-defense": 110,
+            "speed": 30,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/143.png"
+            }
+          },
+          {
+            "id": 144,
+            "name": "articuno",
+            "hp": 90,
+            "attack": 85,
+            "defense": 100,
+            "special-attack": 95,
+            "special-defense": 125,
+            "speed": 85,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/144.png"
+            }
+          },
+          {
+            "id": 145,
+            "name": "zapdos",
+            "hp": 90,
+            "attack": 90,
+            "defense": 85,
+            "special-attack": 125,
+            "special-defense": 90,
+            "speed": 100,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/145.png"
+            }
+          },
+          {
+            "id": 146,
+            "name": "moltres",
+            "hp": 90,
+            "attack": 100,
+            "defense": 90,
+            "special-attack": 125,
+            "special-defense": 85,
+            "speed": 90,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/146.png"
+            }
+          },
+          {
+            "id": 147,
+            "name": "dratini",
+            "hp": 41,
+            "attack": 64,
+            "defense": 45,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 50,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/147.png"
+            }
+          },
+          {
+            "id": 148,
+            "name": "dragonair",
+            "hp": 61,
+            "attack": 84,
+            "defense": 65,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 70,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/148.png"
+            }
+          },
+          {
+            "id": 149,
+            "name": "dragonite",
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png"
+            }
+          },
+          {
+            "id": 150,
+            "name": "mewtwo",
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "special-attack": 154,
+            "special-defense": 90,
+            "speed": 130,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
+            }
+          },
+          {
+            "id": 151,
+            "name": "mew",
+            "hp": 100,
+            "attack": 100,
+            "defense": 100,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 100,
+            "sprites": {
+              "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+              "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/151.png"
+            }
+          }
+        ]
+    }
+
