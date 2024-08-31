@@ -32,7 +32,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
   justify-items: center;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 /* PokemonCard.css */
@@ -48,7 +48,7 @@
 .PokemonCard img {
   width: 120px;
   height: 120px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .PokemonCard .header {
@@ -107,21 +107,20 @@
 /* Team.css */
 
 .Team {
-  padding: 20px;
+  padding: auto;
+  margin-bottom: 0px;
 }
 
 .Team h1 {
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
-  justify-content: center;
 }
 
 .Team-pokemon-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
   gap: 20px;
+
 }
 
 .Team-pokemon-list > * {
@@ -129,45 +128,12 @@
   max-width: calc(20% - 20px);
 }
 
-.Team-pokemon-card {
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.Team-pokemon-image {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 10px;
-}
-
-.Team-pokemon-name {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.Team-remove-button {
-  background-color: #ff4d4d;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 16px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.Team-remove-button:hover {
-  background-color: #ff1a1a;
-}
 /* TeamStatsCard.css */
 .TeamStatsCard {
   background-color: #f5f5f5;
-  border-radius: 8px;
-  padding: 20px;
+  border-radius: 10px;
+  padding: 10px;
+
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -175,24 +141,27 @@
 .TeamStatsCard-image {
   width: 100%;
   height: auto;
-  margin-bottom: 10px;
 }
 
+
 .TeamStatsCard-name {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: left;
 }
 
 .TeamStatsCard-stats {
   margin-top: 10px;
-  margin-bottom: 20px;
-  font-size: 14px;
+  margin-bottom: 0px;
+  font-size: 10px;
   text-align: left;
 }
 
 .TeamStatsCard-stats div {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-top: 0%;
 }
 
 .TeamStatsCard-remove-button {
@@ -200,9 +169,11 @@
   color: white;
   border: none;
   border-radius: 4px;
-  padding: 8px 16px;
+  padding: 5px 10px;
   font-size: 14px;
+  text-align: center;
   cursor: pointer;
+  margin-top: 8px;
   transition: background-color 0.3s;
 }
 
